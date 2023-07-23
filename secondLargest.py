@@ -19,20 +19,12 @@ def findSecondLargest(sequenceOfNumbers):
 
 def main():
     array = []
-    # print("Enther the number of imputs")
-    # numberOfInput = int(input())
-
-    # while numberOfInput :
     print("Enter the size of array")
     sizeOfArray = int(input())
     for i in range(0,sizeOfArray):
        element = int(input())
        array.append(element)
           
-    #   numberOfInput= numberOfInput -1
-
-    # print("Array is",array)  
-    # findSecondLargest(array)
     print( findSecondLargest(array))
 
 main()    
