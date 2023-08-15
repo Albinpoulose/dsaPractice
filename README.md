@@ -1,2 +1,2 @@
 # dsaPractice
-Practice DSA in python
+Practice DSA in Javascipt
