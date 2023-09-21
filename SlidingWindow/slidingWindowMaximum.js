@@ -12,15 +12,27 @@
  * @param {number} k
  * @return {number[]}
  */
-var maxSlidingWindow = function (nums, k) {
-  const result = []
-    for (let i = 0; i <= nums.length - k; i++) {
+// var maxSlidingWindow = function (nums, k) {
+//   const result = []
+//     for (let i = 0; i <= nums.length - k; i++) {
   
 
      
-  }
-  return result
-};
+//   }
+//   return result
+// };
 
-console.log(maxSlidingWindow([1, 3, -1, -3, 5, 3, 6, 7], 3));
+// console.log(maxSlidingWindow([1, 3, -1, -3, 5, 3, 6, 7], 3));
 // Output: [3,3,5,5,6,7]
+
+
+//=============================optimized solution================================================
+
+/**
+ * @param {number[]} nums
+ * @param {number} k
+ * @return {number[]}
+ */
+var maxSlidingWindow = function(nums, k) {
+    
+};
