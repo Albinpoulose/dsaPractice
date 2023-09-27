@@ -10,4 +10,4 @@ class Solution:
 # 3) Using set() 
 
 x= Solution()
-print(x.containsDuplicate([1,2,3,1]))
+print(x.containsDuplicate([1,2,3,1])) 
